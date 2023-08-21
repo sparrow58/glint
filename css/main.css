@@ -1351,6 +1351,16 @@ input::-moz-focus-inner {
   margin-top: 0;
   margin-bottom: 0;
 }
+.subhead-2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 2.7rem;
+  line-height: 3.333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #39b54a;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .subhead--dark {
   color: #000000;
