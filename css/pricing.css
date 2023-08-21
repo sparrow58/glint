@@ -1,8 +1,8 @@
 /* custom pricing */
 
 section.pricing {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: #0066FF;
+    /* background: linear-gradient(to right, #0062E6, #33AEFF); */
   }
   
   .pricing .card {

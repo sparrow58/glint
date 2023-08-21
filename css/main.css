@@ -3698,3 +3698,14 @@ footer .row {
 }
 
 /*# sourceMappingURL=main.css.map */
+.spacer {
+  aspect-ratio: 960/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave-blue {
+  background-image: url('./wave-blue.svg');
+}
