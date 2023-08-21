@@ -153,22 +153,39 @@
         if (direction === "down") {
           stats.each(function () {
             var $this = $(this);
+            var finalValue = parseFloat($this.text());
 
             $({ Counter: 0 }).animate(
-              { Counter: $this.text() },
+              { Counter: finalValue },
               {
                 duration: 4000,
                 easing: "swing",
                 step: function (curValue) {
-                  $this.text(curValue);
+                  var displayValue;
+
+                  if (finalValue === curValue) {
+                    if (curValue >= 1000) {
+                      var kValue = curValue / 1000;
+                      displayValue =
+                        kValue % 1 === 0
+                          ? kValue + "K+"
+                          : kValue.toFixed(1) + "K+";
+                    } else {
+                      displayValue =
+                        curValue % 1 !== 0 ? curValue + "%" : curValue + "+";
+                    }
+                  } else {
+                    displayValue = Math.floor(curValue);
+                  }
+
+                  $this.text(displayValue);
                 },
               }
             );
           });
         }
 
-        // trigger once only
-        this.destroy();
+        this.destroy(); // Trigger once only
       },
 
       offset: "90%",
