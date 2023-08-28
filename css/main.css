@@ -3699,13 +3699,25 @@ footer .row {
 
 /*# sourceMappingURL=main.css.map */
 .spacer {
-  aspect-ratio: 960/100;
+  aspect-ratio: 600/200;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+
 .wave-blue {
+  aspect-ratio: 960/100;
   background-image: url('./wave-blue.svg');
+}
+
+.wave-green-white {
+  background-image: url('./new2.svg');
+}
+
+.green{
+  color: #39b54a;
+  text-transform: uppercase;
+  
 }
