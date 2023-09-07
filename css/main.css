@@ -3721,3 +3721,19 @@ footer .row {
   text-transform: uppercase;
   
 }
+/* .fa-x-twitter{
+  background-image: url('./x-twitter.svg');
+} */
+
+.fa-brands, .fab.fa-twitter, .mec-fa-twitter {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+}
+.fa-x-twitter::before, .mec-fa-twitter::before {
+  content: "\e61b" !important;
+}
+
+.rose-sign{
+  background-image: "";
+}
