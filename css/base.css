@@ -434,9 +434,12 @@ textarea {
  *
  * ------------------------------------------------------------------- */
 .row {
-    width: 94%;
-    max-width: 1200px;
+     width: 94%;
+    max-width: 1200px; 
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .row:after {
