@@ -116,7 +116,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 a:hover,
@@ -437,7 +437,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #CB0E40;
+  background: #ef233c;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -446,7 +446,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 dd {
@@ -571,7 +571,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #CB0E40;
+  background: #ef233c;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -613,7 +613,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #CB0E40;
+  background-color: #ef233c;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -839,7 +839,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #CB0E40;
+  -webkit-text-fill-color: #ef233c;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -896,8 +896,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #CB0E40;
-  border-color: #CB0E40;
+  background: #ff2f51;
+  border-color: #ff2f51;
   color: #ffffff;
 }
 
@@ -911,8 +911,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #33a242;
-  border-color: #33a242;
+  background: #a31223;
+  border-color: #ef233c;
 }
 
 /* button modifiers
@@ -939,8 +939,8 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
   background: transparent !important;
-  border: 0.2rem solid #CB0E40;
-  color: #CB0E40;
+  border: 0.2rem solid #ef233c;
+  color: #ef233c;
 }
 
 .btn--stroke:hover,
@@ -1166,7 +1166,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 .stats-tabs li a em {
@@ -1347,7 +1347,7 @@ input::-moz-focus-inner {
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: #CB0E40;
+  color: #ef233c;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1357,7 +1357,7 @@ input::-moz-focus-inner {
   line-height: 3.333;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: #CB0E40;
+  color: #ef233c;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1527,7 +1527,7 @@ input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-  background: #CB0E40;
+  background: #ef233c;
 }
 
 /* ===================================================================
@@ -1617,7 +1617,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.25rem;
   margin-bottom: 4.8rem;
   margin-top: 0.9rem;
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 .header-nav p {
@@ -1753,7 +1753,7 @@ input::-moz-focus-inner {
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  color: #CB0E40;
+  color: #ef233c;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -1971,8 +1971,8 @@ input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-  border-bottom: 2px solid #CB0E40;
-  border-right: 2px solid #CB0E40;
+  border-bottom: 2px solid #ef233c;
+  border-right: 2px solid #ef233c;
   content: "";
   display: block;
   height: 8px;
@@ -1996,7 +1996,7 @@ input::-moz-focus-inner {
   display: block;
   width: 2px;
   height: 10.2rem;
-  background-color: #CB0E40;
+  background-color: #ef233c;
   position: absolute;
   right: 7.2rem;
   bottom: 0;
@@ -2056,7 +2056,7 @@ input::-moz-focus-inner {
 }
 
 .home-social span {
-  color: #CB0E40;
+  color: #ef233c;
   right: 4.5rem;
   font-size: 1.3rem;
   opacity: 0;
@@ -2305,7 +2305,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 16.2rem;
   padding-bottom: 9rem;
-  background-color: #CB0E40;
+  background-color: #ef233c;
   color: #010507;
   position: relative;
 }
@@ -2355,7 +2355,7 @@ html.no-csstransitions .home-content__main {
 .stats h5 {
   font-family: "montserrat-semibold", sans-serif;
   margin-top: 1.8rem;
-  color: #000000;
+  color: #edf2f4;
   font-size: 1.8rem;
   line-height: 1.333;
   position: relative;
@@ -2505,7 +2505,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
   float: left;
-  color: #CB0E40;
+  color: #ef233c;
   font-size: 4.8rem;
   margin-top: -0.6rem;
 }
@@ -3065,7 +3065,7 @@ html.no-csstransitions .home-content__main {
   padding: 0 2rem;
   margin: 0;
   color: #ffffff;
-  background: #CB0E40;
+  background: #ef233c;
 }
 
 .s-contact .form-field label::after {
@@ -3076,14 +3076,14 @@ html.no-csstransitions .home-content__main {
   margin-top: -6px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-right: 5px solid #CB0E40;
+  border-right: 5px solid #ef233c;
 }
 
 .contact__line {
   display: block;
   width: 2px;
   height: 20.4rem;
-  background-color: #CB0E40;
+  background-color: #ef233c;
   position: absolute;
   left: 50%;
   top: -10.2rem;
@@ -3110,7 +3110,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
   margin-top: 0;
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 .contact-content input[type="email"],
@@ -3137,7 +3137,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
   color: #ffffff;
-  border-bottom: 1px solid #CB0E40;
+  border-bottom: 1px solid #ef233c;
 }
 
 .contact-content button,
@@ -3229,7 +3229,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 .contact-social li:last-child {
@@ -3252,7 +3252,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 .message-warning i,
@@ -3450,11 +3450,15 @@ footer a {
 footer a:hover,
 footer a:focus,
 footer a:active {
-  color: #CB0E40;
+  color: #ef233c;
 }
 
 footer .row {
   max-width: 980px;
+}
+
+.gray-text {
+  color: #edf2f4;
 }
 
 /* --------------------------------------------------------------- 
@@ -3542,8 +3546,8 @@ footer .row {
   top: 0;
   right: 0;
   color: #ffffff;
-  background: #CB0E40;
-  border-color: #CB0E40;
+  background: #ef233c;
+  border-color: #ef233c;
   padding: 0 20px;
 }
 
@@ -3717,7 +3721,7 @@ footer .row {
 }
 
 .green{
-  color: #CB0E40;
+  color: #ef233c;
   text-transform: uppercase;
   
 }
@@ -3736,4 +3740,8 @@ footer .row {
 
 .rose-sign{
   background-image: "";
+}
+
+.align-center{
+  align-items: center;
 }
