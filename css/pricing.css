@@ -68,4 +68,30 @@ section.pricing {
     .pricing .card:hover .btn {
       opacity: 1;
     }
+    .step-text {
+      color: #fff;
+    }
+    .step-details {
+      color: #333333;
+    }
+    .step {
+      margin: 20px; /* Add margin between each step */
+      color: #333333; /* Text color */
+    }
+    .step a {
+      color: #2980b9; /* Link color */
+    }
+    .step li {
+      color: #333333; /* Inherits color from parent (step) */
+    }
+    .step h6, .step h1, .step h2, .step h3 {
+      color: #fff; /* Inherits color from parent (step) */
+    }
+    .custom-card {
+      background-color: #AAB8D3; /* Lighter shade of blue-gray */
+      /* or */
+      /* background-color: #75839F;  Darker shade of blue-gray */
+      /* or */
+      /* background-color: #FFDAB9; Light shade of orange */
+    }
   }
